@@ -266,7 +266,7 @@ Example: Predicting Spam/Not Spam is classification, while predicting a house pr
 ```text
 Example: An e-commerce company can group customers into different segments based on their purchasing behavior.
 ```
-
+</details>
 ---
 
 ### 18. What is the difference between Supervised and Unsupervised Learning?
