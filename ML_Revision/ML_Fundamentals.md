@@ -308,3 +308,141 @@ Example: For predicting student placement, CGPA, technical skills, and internshi
 Example: For spam detection: collect emails → clean data → create features → train model → evaluate it → classify new emails.
 ```
 </details>
+
+### 21. What is Data Preprocessing in Machine Learning?
+<details>
+<summary><b>👁️ Click to reveal Answer & Example</b></summary>
+
+> **Answer:**
+> Data preprocessing is the process of preparing raw data before giving it to a Machine Learning model. It includes handling missing values, duplicates, incorrect data, categorical values, and converting data into a suitable format.
+
+```text
+Example: If a dataset contains missing ages and text values like "Male" and "Female", we may fill the missing ages and encode the categories before training the model.
+```
+</details>
+
+---
+
+### 22. How do you handle missing values in a dataset?
+<details>
+<summary><b>👁️ Click to reveal Answer & Example</b></summary>
+
+> **Answer:**
+> Missing values can be handled by removing affected rows or columns, or by replacing the missing values with suitable values such as mean, median, or mode. The method depends on the data and the reason for the missing values.
+
+```text
+Example: If a few students have missing CGPA values, we could replace them with the median CGPA if removing those records would lose useful data.
+```
+</details>
+
+---
+
+### 23. What is an outlier?
+<details>
+<summary><b>👁️ Click to reveal Answer & Example</b></summary>
+
+> **Answer:**
+> An outlier is a data point that is significantly different from the other values in a dataset. Outliers can sometimes represent errors, but they can also be genuine unusual observations.
+
+```text
+Example: If most employee salaries are between ₹3–10 LPA and one value is ₹500 LPA, it may be an outlier that needs investigation.
+```
+</details>
+
+---
+
+### 24. What is feature engineering?
+<details>
+<summary><b>👁️ Click to reveal Answer & Example</b></summary>
+
+> **Answer:**
+> Feature engineering is the process of creating or transforming input features to provide more useful information to a Machine Learning model. Good features can help a model identify patterns more effectively.
+
+```text
+Example: Instead of using only date of birth, we can create an Age feature because age may be more useful for predicting customer behavior.
+```
+</details>
+
+---
+
+### 25. What is feature selection?
+<details>
+<summary><b>👁️ Click to reveal Answer & Example</b></summary>
+
+> **Answer:**
+> Feature selection is the process of choosing the most relevant features for a Machine Learning model and removing unnecessary or irrelevant ones. This can reduce complexity and sometimes improve model performance.
+
+```text
+Example: For predicting house prices, house size and location may be useful, while a randomly generated customer ID is not useful.
+```
+</details>
+
+---
+
+### 26. What is categorical data, and how is it handled in ML?
+<details>
+<summary><b>👁️ Click to reveal Answer & Example</b></summary>
+
+> **Answer:**
+> Categorical data represents values belonging to specific categories rather than continuous numbers. Since many ML algorithms require numerical input, categorical values are usually converted into numbers using techniques such as one-hot encoding or label encoding.
+
+```text
+Example: Values like "Red", "Blue", and "Green" can be converted into numerical representations before training a model.
+```
+</details>
+
+---
+
+### 27. What is feature scaling?
+<details>
+<summary><b>👁️ Click to reveal Answer & Example</b></summary>
+
+> **Answer:**
+> Feature scaling is the process of bringing numerical features into comparable ranges so that features with larger values do not unnecessarily dominate the model. It is particularly important for algorithms that depend on distance or gradients.
+
+```text
+Example: If age ranges from 18–60 but salary ranges from 3,00,000–20,00,000, scaling can bring these features to comparable ranges.
+```
+</details>
+
+---
+
+### 28. What is the difference between normalization and standardization?
+<details>
+<summary><b>👁️ Click to reveal Answer & Example</b></summary>
+
+> **Answer:**
+> Normalization usually scales values to a fixed range, commonly 0 to 1. Standardization transforms values based on their mean and standard deviation so that the resulting data has approximately mean 0 and standard deviation 1.
+
+```text
+Example: If a model uses features like age and income with very different scales, normalization or standardization can make them more comparable.
+```
+</details>
+
+---
+
+### 29. What is Linear Regression?
+<details>
+<summary><b>👁️ Click to reveal Answer & Example</b></summary>
+
+> **Answer:**
+> Linear Regression is a supervised learning algorithm used to predict a continuous numerical value by learning the relationship between input features and the target. It tries to find a line that best represents the relationship between the variables.
+
+```text
+Example: A model can learn the relationship between house size and price and predict the price of a 2,000 sq.ft house.
+```
+</details>
+
+---
+
+### 30. What is Logistic Regression?
+<details>
+<summary><b>👁️ Click to reveal Answer & Example</b></summary>
+
+> **Answer:**
+> Logistic Regression is a supervised learning algorithm mainly used for classification problems. It calculates a probability for an input and uses that probability to determine the appropriate class.
+
+```text
+Example: A model can calculate the probability that an email is spam and classify it as Spam if the probability crosses a chosen threshold.
+```
+</details>
