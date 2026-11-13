@@ -33,3 +33,8 @@ print(clean_text)  # Output: Hello (just the string, no AIMessage wrapper)
 ```
 
 ---
+
+## 2. JSON Output Parser (JsonOutputParser)
+If you want the LLM to return data formatted as a JSON object so you can access it like a Python dictionary, you use the JsonOutputParser.
+
+To help llama3.2 understand what JSON structure you expect, the parser can automatically generate format instructions that you inject into your prompt.
