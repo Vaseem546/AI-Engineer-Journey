@@ -446,3 +446,129 @@ Example: A model can learn the relationship between house size and price and pre
 Example: A model can calculate the probability that an email is spam and classify it as Spam if the probability crosses a chosen threshold.
 ```
 </details>
+
+
+### 31. What is K-Nearest Neighbors (KNN)?
+<details>
+<summary><b>👁️ Click to reveal Answer & Example</b></summary>
+
+> **Answer:**
+> KNN is an Algorithm used to predicts the class of a new data point by looking at the nearest existing data points and using their characteristics to make a prediction. It is based on the idea that similar data points are usually close to each other.
+
+```text
+Example: If most of the five students closest to a new student belong to the "Placed" group, KNN may classify the new student as likely to be placed.
+```
+</details>
+
+### 32. What is a Decision Tree?
+<details>
+<summary><b>👁️ Click to reveal Answer & Example</b></summary>
+
+> **Answer:**
+> A Decision Tree is used to makes predictions by asking a series of questions about the input features and following different branches based on the answers. It continues until it reaches a final prediction.
+
+```text
+Example: 
+CGPA > 7.5?
+   ↓ Yes
+Skills available?
+   ↓ Yes
+Likely Placed
+```
+</details>
+
+### 33. What is Random Forest?
+<details>
+<summary><b>👁️ Click to reveal Answer & Example</b></summary>
+
+> **Answer:**
+> Random Forest is an ensemble algorithm that combines predictions from multiple Decision Trees to produce a more reliable prediction. Using multiple trees generally reduces the risk of depending too much on one particular tree.
+
+```text
+Example: Instead of asking one Decision Tree whether a transaction is fraudulent, Random Forest can use many trees and combine their predictions.
+```
+</details>
+
+### 34. What is Naive Bayes?
+<details>
+<summary><b>👁️ Click to reveal Answer & Example</b></summary>
+
+> **Answer:**
+> Naive Bayes is a classification algorithm based on probability. It calculates how likely an input belongs to different classes using the features present in that input.
+
+```text
+Example: Naive Bayes can classify an email as spam by checking words and patterns that commonly appear in previously labeled spam emails.
+```
+</details>
+
+### 35. What is Support Vector Machine (SVM)?
+<details>
+<summary><b>👁️ Click to reveal Answer & Example</b></summary>
+
+> **Answer:**
+> SVM is a supervised learning algorithm that tries to find the best boundary that separates different classes of data. It aims to create a boundary with the largest possible margin between the classes.
+
+```text
+Example: For classifying emails into spam and non-spam, SVM can learn a boundary that separates the two categories based on their features.
+```
+</details>
+
+### 36. What is K-Means Clustering?
+<details>
+<summary><b>👁️ Click to reveal Answer & Example</b></summary>
+
+> **Answer:**
+> K-Means is an unsupervised learning algorithm that divides data into a specified number of groups called clusters. It repeatedly assigns points to the nearest cluster center and updates the centers until the groups become stable.
+
+```text
+Example: An e-commerce company can use K-Means to divide customers into three groups based on their spending and purchasing behavior.
+```
+</details>
+
+### 37. What is PCA in Machine Learning?
+<details>
+<summary><b>👁️ Click to reveal Answer & Example</b></summary>
+
+> **Answer:**
+> PCA, or Principal Component Analysis, is a dimensionality reduction technique that transforms many related features into a smaller number of important components while trying to retain most of the useful information.
+
+```text
+Example: If a dataset has 50 related features, PCA can help reduce them to a smaller set of components that can be easier to visualize or process.
+```
+</details>
+
+### 38. What is a training dataset, validation dataset, and test dataset?
+<details>
+<summary><b>👁️ Click to reveal Answer & Example</b></summary>
+
+> **Answer:**
+> The training dataset is used to teach the model, the validation dataset is used to tune and compare models during development, and the test dataset is used at the end to measure performance on unseen data.
+
+```text
+Example: With 10,000 records, we might use 7,000 for training, 1,500 for validation, and 1,500 for final testing.
+```
+</details>
+
+### 39. What are parameters and hyperparameters in Machine Learning?
+<details>
+<summary><b>👁️ Click to reveal Answer & Example</b></summary>
+
+> **Answer:**
+> Parameters are values learned automatically by the model during training, such as weights. Hyperparameters are settings chosen before or during training, such as learning rate, number of trees, or the value of K in KNN.
+
+```text
+Example: In a neural network, weights are learned parameters, while the learning rate is a hyperparameter chosen by us.
+```
+</details>
+
+### 40. What is a loss function?
+<details>
+<summary><b>👁️ Click to reveal Answer & Example</b></summary>
+
+> **Answer:**
+> A loss function measures how different the model's prediction is from the actual answer. During training, the model tries to reduce this loss so that its predictions become more accurate.
+
+```text
+Example: If the actual house price is ₹50 lakhs but the model predicts ₹40 lakhs, the loss function measures how large that prediction error is.
+```
+</details>
