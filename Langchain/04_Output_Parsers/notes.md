@@ -38,3 +38,7 @@ print(clean_text)  # Output: Hello (just the string, no AIMessage wrapper)
 If you want the LLM to return data formatted as a JSON object so you can access it like a Python dictionary, you use the JsonOutputParser.
 
 To help llama3.2 understand what JSON structure you expect, the parser can automatically generate format instructions that you inject into your prompt.
+
+
+### 3. Structured Output Parser (StructuredOutputParser)
+The Structured Output Parser takes things a step further by letting you explicitly define the exact fields and descriptions you want using ResponseSchema. This gives you more control than a generic JSON parser over multi-field requirements.
